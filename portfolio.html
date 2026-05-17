@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoliopage</title>
+     <link rel="stylesheet" href="assstylesheet.css" type="text/css"/>
+      <style> section{
+
+            background-color: black;
+            margin-left: 20px;
+            margin-right:20px;
+            padding:20px;
+            width:95%;
+            display:grid;
+            grid-template-columns: 20% 75%;
+            grid-template-rows: 60vh;
+            grid-template-areas: "pro sp";
+            gap:30px;
+            font-family: Arial, Helvetica, sans-serif;
+          
+        } 
+        .project{
+            grid-area: pro;
+            color:white;
+            padding:10px;
+            border-right: 10px;
+            border-left: 0px;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-color: white;
+            border-style: double;
+            background-color: black;
+        }
+        .sec{
+            background-color: black;
+            height:50px;
+            width:200px;
+            
+        }
+        .sec:hover{
+            background-color:black;
+             border-right: 0px;
+            border-left: 0px;
+            border-top: 0px;
+            border-bottom: 5px;
+            border-color: white;
+            border-style: solid;
+        }
+        .space{
+            grid-area:sp;
+            padding:10px;
+            display:flex;
+            flex-wrap:wrap;
+            background-color: black;
+            
+:
+        
+        }
+        .proimg{
+            height:100px;
+            width:75px;
+            background-color: black;
+            margin:10px;
+            border-style:double;
+            border-width: 5px;
+            border-color: white;
+            justify-content: center;
+            align-items: center;
+            padding:20px;
+            color: white;
+            overflow: hidden;
+            font-size: 10px;
+
+        }
+        .proimg:hover{
+            height:200px;
+            width:500px;
+            background-color: black;
+            margin:10px;
+            border-style:solid;
+            border-width: 7px;
+            border-color: white;
+            justify-content: center;
+            align-items: center;
+            padding:20px;
+            color: white;
+            transition:1s;
+            font-size:20px;
+
+
+
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Project Portfolio</h1>
+
+       <nav>
+        
+       <a href="index.html">Home</a>
+        <a href="AboutMe.html">About Me</a>
+       
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contactus.html">Contact Us</a>
+        </nav>
+</header>
+<section>
+        <div class="project">
+        <div class="sec">
+            <h3>Web Design</h3></div>
+             <div class="sec">
+            <h3>Graphic Design</h3></div>
+             <div class="sec">
+            <h3>Ux Design</h3></div>
+             <div class="sec">
+            <h3>Backend Support</h3></div>
+
+       
+        </div>
+        <div class="space">
+            <div class="proimg">
+                <h3>Desktop based hospital Management system</h3>
+                <p>Created a desktop based application to manage patient data and prescriptions using core JAVA.
+                    Data are stored in Microsoft Access and retrived and updated with SQL queries </p>
+            </div>
+             <div class="proimg">
+                <h3>Portfolio Page with HTML and CSS</h3>
+                <p>Created a Portfolio page with HTML and CSS including landing pages, animations,transients, gradients and form validations</p>
+            </div>
+             <div class="proimg">
+                <h3>UX design for Movie ticket booking platform</h3>
+                <p>Created a Wireframe for improving the UX design of exsisting movie booking app </p>
+            </div>
+             
+             
+        </div>
+
+</section>
+ <footer>
+        <p align="right"><b>www.nandhini.com</b></p>
+    </footer>
+</body>
+</html>
